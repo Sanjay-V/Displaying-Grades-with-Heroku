@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html>  
+<head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>get values</title>
+    <style>
+        body {
+            background-image: linear-gradient( 135deg, #F6CEEC 10%, #D939CD 100%);
+        }
+    </style  
+</head>  
+<body> 
+     <div class="jombotron">
+        <div class="container mt-5">
+           <div class="col-md d-flex justify-content-center">
+             {% if name  %}
+                <h1>Result for {{ name }} is {{ rows }} </h1>
+             {% endif %}
+             {% if name == none %}
+                <h1>{{ rows }} </h1>
+             {% endif %}
+           </div>
+        </div>
+     </div>
+    </div>
+        <div class="container mt-5">
+            <div class="col-md d-flex justify-content-center">
+               <a style="border: 3px solid black; "class="btn btn-dark" href="/">Go Back to Homepage</a>
+            </div>
+        </div>
+   </div>
+</div>          
+</body>  
+</html>   
